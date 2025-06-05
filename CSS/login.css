@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Comic Sans MS";
+}
+
+.container{
+    width: 520px;
+    height: 625px;
+    background-color: white;
+}
+
+#header{
+    color: rgb(10, 102, 10);
+    font-size: 50px;
+    text-align: center;
+
+    height: 150px;
+}
+
+#login-area{
+    height: 205px;
+    padding-left: 20px;
+}
+
+.input{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.375);
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+#link-1{
+    text-decoration: none;
+    color: black ;
+    margin-left: 330px;
+    font-size: 14px;
+}
+
+.btn-1{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(55, 146, 84, 0.375);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(59, 161, 59);
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-2{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.375);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+img{
+    width: 35px;
+    height: 20px;
+}
+
+hr{
+    width: 20px;
+}
+
+#link-2{
+    color: rgb(59, 161, 59);
+    text-decoration: none;
+
+}
+
+#p-3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.option{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    
+}
+.option::before, .option::after{
+    content: "";
+    height: 1.3px;
+    width: 120px;
+    background-color: grey;
+    display: block;
+
+}
+
+
+.option::before{
+    margin-left: 60px;
+}
+
+.option::after{
+    margin-right: 90px;
+}
