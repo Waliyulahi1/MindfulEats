@@ -31,6 +31,9 @@ p{
 img{
     width: 70%;
 }
+#next{
+    position: relative;
+}
 
 .container{
     margin: 10px;
@@ -84,10 +87,7 @@ a:hover{
 .buttons{
     margin-top: 1.5rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 4rem;
-    width: 40%;
 }
 
 button{
