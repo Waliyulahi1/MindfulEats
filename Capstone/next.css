@@ -72,6 +72,15 @@ img{
     background: rgb(90, 253, 90);
 }
 
+a{
+    text-decoration: none;
+    color:  #000000;
+}
+
+a:hover{
+    color: rgb(90, 253, 90);
+}
+
 .buttons{
     margin-top: 1.5rem;
     display: flex;
