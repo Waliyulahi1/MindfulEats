@@ -51,15 +51,15 @@ img{
     gap: 2rem;
 }
 
-.typing-animation{
+.dot-animation{
     display: inline-flex;
     padding: 13px 10px;
     border-radius: 50px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     cursor: pointer;
 }
 
-.typing-animation .dot{
+.dot-animation .dot{
     height: 10px;
     width: 10px;
     opacity: 0.7;
@@ -68,8 +68,8 @@ img{
     background: rgb(190, 196, 190);
 }
 
-.typing-animation .dot:active{
-    background: rgb(64, 250, 64);
+.dot-animation .dot:active{
+    background: rgb(90, 253, 90);
 }
 
 .buttons{
